@@ -1,0 +1,37 @@
+export class Pub {
+  PUBID: number;
+  rsPubName: string;
+  rsAddress: string;
+  Add2: string;
+  Add3: string;
+  rsTown: string;
+  rsCounty: string;
+  rsPostCode: string;
+  Region: string;
+  PremisesType: string;
+  NumberEmployees: string;
+  Industry: string;
+  SIC: string;
+  Turnover: string;
+  rsTel: string;
+  rsFax: string;
+  rsWebsite: string;
+  Title: string;
+  Forename: string;
+  Surname: string;
+  Position: string;
+  Email: string;
+  EmailStatus: string;
+  DateEmailValidated: string;
+  PostalSearch: string;
+  rsLat: string;
+  rsLong: string;
+  rsAboutpub: string;
+  rsUser1: string;
+  rsPass1: string;
+  icon: string;
+  img1: string;
+  img2: string;
+  img3: string;
+  offer1: string;
+}

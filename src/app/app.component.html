@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<ul class="pubslist">
+
+  <li *ngFor="let pub of thepubs"><h2>{{pub.rsPubName}}</h2>
+      <p>{{pub.PUBID}}</p>
+      <p>{{pub.Email}}</p>
+  </li>
+
+</ul>
+<router-outlet></router-outlet>
+<style>
+  h2 { padding:0px 10px; }
+  ul.pubslist { display: flex; flex-wrap: wrap; padding-left:0px; justify-content: flex-start; }
+  ul.pubslist li { display: flex; background-color: #9adeff; margin:10px; padding:10px; flex-wrap: wrap; flex: auto; }
+</style>
